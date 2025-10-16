@@ -1,0 +1,5 @@
+f4_vr = lambda x: f4(x,)
+# questao 6
+a = 212 * np.p1 / 180
+a = 313 * np.p1 / 180
+

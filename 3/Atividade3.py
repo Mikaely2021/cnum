@@ -1,5 +1,6 @@
 import math
 import sys
+from decimal import Decimal, getcontext
 
 def exp_series(x, atol=0.0):
     """ Aproxima e^x pela série de Maclaurin com critério de parada numérico. """
@@ -35,6 +36,7 @@ def exp_limit(x, atol=0.0):
         if n > 10_000: # segurança contra loop infinito
             break
     return s, n, term
+
 
 def exp_series_scaling(x, theta=1.0):
     if x == 0.0:
