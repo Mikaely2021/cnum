@@ -1,4 +1,4 @@
-ef bissecao(f,     # função que queremos encontrar a raiz
+def bissecao(f,     # função que queremos encontrar a raiz
               a,    # a início do intervalo
               b,    # b fim do intervalo
               TOL,   # erro tolerado
